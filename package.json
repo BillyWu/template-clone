@@ -1,0 +1,28 @@
+{
+  "name": "template-clone",
+  "version": "0.0.1",
+  "description": "Simple template-clone middleware to serve html and png files",
+  "homepage": "https://github.com/billywu/template-clone",
+  "author": "Billy Wu billy.b.wu@gmail.com",
+  "contributors": [ 
+    { "name": "Billy Wu", "email": "billy.b.wu@gmail.com" }
+  ],
+  "engines": { "node": ">= 0.6.0" },
+  "dependencies" : {
+    "debug" : "latest",
+    "mkdirp": "latest"
+  },
+  "devDependencies" : {
+    "rimraf" : "latest",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "keywords": ["node" "express", "template", "clone"],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/billywu/template-clone"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
