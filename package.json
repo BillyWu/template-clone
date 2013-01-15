@@ -9,6 +9,7 @@
   ],
   "engines": { "node": ">= 0.6.0" },
   "dependencies" : {
+    "coffee-script": "latest",
     "debug" : "latest",
     "mkdirp": "latest"
   },
@@ -17,7 +18,7 @@
     "mocha": "latest",
     "should": "latest"
   },
-  "keywords": ["node" "express", "template", "clone"],
+  "keywords": ["node", "express", "coffeescript", "template", "clone"],
   "repository": {
     "type" : "git",
     "url" : "https://github.com/billywu/template-clone"
